@@ -211,7 +211,15 @@ a.back-to-top {
 	border-radius: 30px;
 }
 
-@media screen and (min-width: 1280px){
+#accordion {
+    display: none;
+}
+
+@media screen and (min-width: 1281px){
+
+#accordion {
+    display: block;
+}
 
 .container{
     position: absolute;
@@ -1775,8 +1783,7 @@ footer {
 }
 
 }
-@media screen and (min-width: 370px) and (max-width: 837px)
-{
+@media screen and (min-width: 370px) and (max-width: 836px){
 
 .container{
     position: relative;
